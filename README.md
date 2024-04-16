@@ -1,6 +1,6 @@
-# TeslaPanel
+# tesla panel
 
-TeslaPanel is a modern-looking admin panel designed to provide a sleek and intuitive user interface for managing various aspects of an application or system. This project is a demonstration of design concepts and does not include functional features.
+tesla panel is a modern-looking admin panel designed to provide a sleek and intuitive user interface for managing various aspects of an application or system. This project is a demonstration of design concepts and does not include functional features.
 
 ## Features
 
