@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="app">
@@ -34,17 +35,18 @@
                     <span class="stats-value">231</span>
                 </div>
             </div>
+            <div class="tab-content">
+                <div class="chart-container">
+                    <span class="tile-title">Sales</span>
+                    <span class="tile-desc">Total sold licenses</span>
+                    <div id="chart-sales"></div>
+                </div>
 
-            <div class="chart-container">
-                <span class="chart-title">Sales</span>
-                <span class="chart-desc">Total sold licenses</span>
-                <div class="background">
-                    <div class="rectangle"></div>
-                    <div class="rectangle"></div>
-                    <div class="rectangle"></div>
-                  </div>
-                <div id="chart-sales"></div>
-            </div>        
+                <div class="action-container">
+                    <span class="tile-title">Current status: <span style="color: rgb(136, 224, 136);">&nbsp;Undetected</span></span>
+                    <span class="tile-desc">Manage status of cheat</span>
+                </div>
+            </div>
         </div>
 
     </div>

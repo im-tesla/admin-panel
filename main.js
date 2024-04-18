@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Sales',
-            data: [5, 15, 3, 14, 7, 10],
+            data: [53, 15, 34, 90, 27, 73],
         }],
         xaxis: {
             categories: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
@@ -34,7 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
             curve: 'smooth'
         },
         grid: {
-            show: false,
+            show: true,
+            borderColor: 'rgba(255, 255, 255, 0.1)',
+            strokeDashArray: 5,       
         },
         fill: {
             type: 'gradient',
