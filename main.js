@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function () {
+function salesChart() {
+    var salesData = [61, 15, 34, 90, 27, 73];
+
     var options = {
         chart: {
             type: 'line',
@@ -15,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         series: [{
             name: 'Sales',
-            data: [53, 15, 34, 90, 27, 73],
+            data: salesData,
+            type: 'line',
         }],
         xaxis: {
             categories: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
@@ -31,33 +34,50 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         stroke: {
             width: 3,
-            curve: 'smooth'
+            curve: 'smooth',
         },
         grid: {
             show: true,
             borderColor: 'rgba(255, 255, 255, 0.1)',
-            strokeDashArray: 5,       
+            strokeDashArray: 5,
         },
         fill: {
-            type: 'gradient',
+            type: "gradient",
             gradient: {
+              type: 'vertical',
               shadeIntensity: 1,
-              opacityFrom: 0.7,
-              opacityTo: 0.9,
-              stops: [0, 90, 100],
-              colorStops: [{
-                offset: 0,
-                color: '#ff0000',
-                opacity: 1
-              }, {
-                offset: 90,
-                color: '#00ff00',
-                opacity: 1
-              }]
+              opacityFrom: 1,
+              opacityTo: 1,
+              colorStops: [
+                {
+                  offset: 30,
+                  color: "#54cc25",
+                  opacity: 1
+                },
+                {
+                  offset: 70,
+                  color: "#de621f",
+                  opacity: 1
+                },
+                {
+                  offset: 90,
+                  color: "#de1f1f",
+                  opacity: 1
+                }
+              ]
             }
-          },
+          }
     };
 
     var chart = new ApexCharts(document.querySelector("#chart-sales"), options);
     chart.render();
+}
+
+function onLoad() {
+    salesChart();
+};
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    onLoad();
 });
