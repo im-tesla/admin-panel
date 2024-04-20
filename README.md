@@ -18,4 +18,4 @@ To view the demo of TeslaPanel, simply open the `index.html` file in a web brows
 
 ## Screenshots
 
-<img src="https://cdn.discordapp.com/attachments/922090113285103616/1229858846101733518/Screenshot_2024-04-16_201943.png?ex=6631364e&is=661ec14e&hm=04c358d82c92814cc206d99ab4cf8a5856424ade3e0ee00070cd15441563da57&" alt="TeslaPanel Screenshot" width="600">
+<img src="https://media.discordapp.net/attachments/922090113285103616/1230593499259342941/image.png?ex=6633e281&is=66216d81&hm=2add1bc34c9702232831f92286d3d441338b9a94a9e190f03977741c5b12a7c7&=&format=webp&quality=lossless" alt="TeslaPanel Screenshot" width="600">
