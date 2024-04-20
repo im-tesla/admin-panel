@@ -120,7 +120,7 @@ video {
     font-size: 15px;
 }
 
-.chart-container {
+.sales-chart-container {
     width: 200px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -166,4 +166,8 @@ video {
     display: flex;
     justify-content: center;
     margin-left: -22px;
+}
+
+#cheat-status {
+    margin-left: 5px;
 }
